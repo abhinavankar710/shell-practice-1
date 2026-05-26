@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # No space before or after equal sign while assigning value to variable.
-PERSON1=John
-PERSON2=Raheem
+PERSON1=Ronaldo
+PERSON2=Virat
 
 echo "$PERSON1:: Hi $PERSON2,How are you?"
 echo "$PERSON2:: Hello $PERSON1, I am fine. How are you?"
