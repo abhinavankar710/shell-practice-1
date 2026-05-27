@@ -3,8 +3,8 @@
 # everything in shell is considered as a string
 NUMBER1=100
 NUMBER2=200
-Name=DevOps
+NAME=DevOps
 
-SUM=$(($NUMBER1 + $NUMBER2 + $Name))
+SUM=$(($NUMBER1 + $NUMBER2 + $NAME)) 
 
 echo "SUM is: ${SUM}"
