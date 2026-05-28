@@ -13,6 +13,7 @@ SCRIPT_NAME=$( echo $0 | cut -d "." -f1 )
 LOG_FILE="$LOG_FOLDER/$SCRIPT_NAME.log" 
 
 mkdir -p $LOGS_FOLDER what does this do
+echo "Script execution started at: $(date)"
 
 if [ $USERID -ne 0 ]; then
     echo "ERROR: Please run this script with root privileges"
