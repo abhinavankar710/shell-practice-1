@@ -1,8 +1,8 @@
 #!/bin/bash
 
-USER= echo "$USER"
+USER= "$USER"
 
-if [$USER == "root"]; then
+if [ "$USER" == "root" ]; then
     
     dnf install mysql -y && if [ $? -eq 0 ]; then
         echo "MySQL installed successfully"
